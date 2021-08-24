@@ -9,3 +9,7 @@
 - Easy to get up and running with
 - Everyone already has it on their system
 - Eventually, you will be expected to know it
+
+## HTML
+- HTML Tags: `<tag>`
+- Surround text in a starting/opening tag 
