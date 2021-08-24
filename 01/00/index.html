@@ -1,5 +1,20 @@
 <html>
     <body>
-        Hello! Good bye.
+        <h1>Hello! Good bye.</h1>
+
+        <div id="output">OUTPUT</div>
+        <input id="user" type="text">
+
+        <script>
+            // alert("Hello");
+            // console.log("GOod bye!");
+            // document.write("This is my document.");
+            output.innerText = "NEW OUTPUT";
+
+            function update() {
+                let username = user.value;
+                output.innerText = "Username: " + username;
+            }
+        </script>    
     </body>
 </html>
