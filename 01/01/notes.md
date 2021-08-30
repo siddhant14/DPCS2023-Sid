@@ -13,4 +13,9 @@ Additionally we need a **programming language**.
 **semantics** and **Sytax**
 
 **example:** Heron's Method
-*Heron's method is a heuristic for finding the spurate root of a number*
+*Heron's method is a heuristic for finding the spurate root of a number.*
+
+Goal: Find the square of some number `N` within some tolerance `T`.
+1. Guess the square root of `N`: `G` (`G > 0`).
+2. Test if `g^2` is *within* `t` of `N`. (`|g^2-N| <t`)
+-- If **yes**: return `g` (g is the answer)
